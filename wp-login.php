@@ -10,6 +10,7 @@
 	<title>Log In &lsaquo; The Legion of Nerds &#8212; WordPress</title>
 	<link rel='dns-prefetch' href='//s.w.org' />
 <link rel='stylesheet' href='/wp-admin/load-styles.php?c=1&amp;dir=ltr&amp;load%5B%5D=dashicons,buttons,forms,l10n,login&amp;ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='wgs2-css'  href='/wp-content/plugins/wp-google-search/wgs2.css?ver=4.9.8' type='text/css' media='all' />
 <meta name='robots' content='noindex,follow' />
 	<meta name="viewport" content="width=device-width" />
 		</head>
@@ -57,7 +58,13 @@ if(typeof wpOnload=='function')wpOnload();
 	</div>
 
 	
-		<div class="clear"></div>
+	<script type='text/javascript'>
+/* <![CDATA[ */
+var scriptParams = {"google_search_engine_id":" 007360384996699313650:yigpmm4yqzg "};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/wp-content/plugins/wp-google-search/assets/js/google_cse_v2.js?ver=1'></script>
+	<div class="clear"></div>
 	</body>
 	</html>
 	
